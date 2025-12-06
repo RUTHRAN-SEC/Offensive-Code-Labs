@@ -3,11 +3,10 @@ Buffer Overflow Demonstration in C
 
 
 The Project Description:
-*This project is about a Buffer Overflow vulnerability program using C language. 
-*In this project we can see how unsafe input function can overwrite the memory when user enter lager input then the actual allocated buffer size.
-*A fixed size of array character [10 Bytes] is used. 
-*The program ask for user input and stores that into scanf("%s"), Which doesn't check for the input length.
- Entering large input can trigger Buffer Overflow.
+This project is about a Buffer Overflow vulnerability program using C language. 
+In this project we can see how unsafe input function can overwrite the memory when user enter lager input then the actual allocated buffer size.
+A fixed size of array character [10 Bytes] is used. 
+The program ask for user input and stores that into scanf("%s"), Which doesn't check for the input length.Entering large input can trigger Buffer Overflow.
 
 Aim:
 *Understanding about how Buffer Overflow works.
